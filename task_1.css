@@ -59,27 +59,23 @@ table {
 	box-sizing: border-box;
 }
 
-.header, .profile, .education, .experience {
-    margin-left: 360px;
-    margin-right: 360px;
+body {
+    font-family: sans-serif;
+}
+
+.header, .profile, .education, .work {
     width: 1200px;
+    margin: 0 auto;
 }
 
 /* header */
 .header h1 {
-    width:264px;
-    height: 188px;
     margin-top: 47px;
-    margin-bottom: 17px;
+    padding-bottom: 17px;
+    border-bottom: 2px solid black;
     font-size: 80px;
-    font-family: sans-serif;
     line-height: 94px;
     color: #000000;
-}
-
-.header .divider {
-    border-top: 2px solid #000000;
-    width: 1200px;
 }
 
 .header img {
@@ -90,34 +86,28 @@ table {
 }
 
 /* content */
-.profile, .education, .skill, .experience {
+.profile, .education, .skill, .work {
     margin-bottom: 72px;
 }
 
-.profile .divider, .education .divider, .experience .divider {
-    border-top: 1px solid #000000;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    width: 1200px;
-}
-
-.profile .label, .education .label, .experience .label {
+.profile h2, .education h2, .work h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
     font-size: 32px;
-    font-family: sans-serif;
+    line-height: 36px;
+    margin-bottom: 16px;
 }
 
-.profile span, .education span, .experience span {
-    font-weight: medium;
+.profile span, .education span, .work span {
+    font-weight: 500;
     font-size: 24px;
-    font-family: sans-serif;
     color: #A00404;
     padding-left: 16px;
 }
 
-.profile p, .education p{
-    font-size: 24px;
-    font-family: sans-serif;
+.profile li, .education li {
     margin-bottom: 24px;
+    font-size: 24px;
     line-height: 36px;
 }
 
@@ -128,71 +118,60 @@ table {
     padding-bottom: 36px;
 }
 
-.skill .label {
+.skill .skill-container {
+    width: 996px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skill h2 {
     font-size: 32px;
-    font-family: sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    width: 280px;
+    border-bottom: 1px solid white;
+    padding-bottom: 8px;
 }
 
 .skill span {
-    font-weight: medium;
+    font-weight: 500;
     font-size: 24px;
-    font-family: sans-serif;
     padding-left: 16px;
 }
 
-.skill .divider {
-    border-top: 1px solid white;
-    margin-top: 8px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 996px;
-}
-
-.skill-list {
+.skill ul {
+    display: inline-block;
     border-left: 1px solid #96A9C4;
     padding-left: 24px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 320px;
+    margin-top: 40px;
 }
 
-.skill-list p {
-    font-family: sans-serif;
+.skill li {
+    text-align: left;
     font-size: 24px;
+    font-weight: 300;
     margin-bottom: 20px;
 }
 
-.job-list {
+.work ul {
     border-left: 1px solid #96A9C4;
     margin-left: 24px;
     padding-left: 24px;
+    width: 642px;
 }
 
-.job-list p {
+.work ul li {
     font-size: 24px;
-    font-family: sans-serif;
     margin-bottom: 24px;
 }
 
-.job-list img {
+.work ul li img {
     width: 90px;
     height: 90px;
+    margin-top: 8px;
     margin-bottom: 8px;
 }
 
-.job-1 .job-label, .job-2 .job-label {
-    margin-bottom: 8px;
-    font-size: 24px;
-}
-
-.job-1 p, .job-2 p {
+.work ul li p {
     font-size: 20px;
     line-height: 30px;
-    width: 642px;
 }
 
 /* footer */
@@ -203,46 +182,55 @@ table {
     padding-bottom: 36px;
 }
 
-.footer .divider {
-    border-top: 1px solid white;
-    margin-top: 8px;
-    margin-bottom: 32px;
-    margin-left: 360px;
-    margin-right: 360px;
+.footer .footer-container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.footer .label {
+.footer h2 {
     font-size: 32px;
-    font-family: sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px;
 }
-
 .footer span {
     font-size: 24px;
-    font-family: sans-serif;
     padding-left: 16px;
 }
 
-.contact-list p {
+.footer ul li {
     font-size: 24px;
-    font-family: sans-serif;
-    text-align: center;
+    font-weight: 300;
     margin-bottom: 16px;
 }
 
-.contact-link {
-    margin-left: auto;
-    margin-right: auto;
-    width: 240px;
+.footer ul li a {
+    color: white;
+    text-decoration: none;
 }
 
-.contact-link img {
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-media {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer .social-media img {
     height: 48px;
     width: 48px;
-    margin-right: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
+
+.footer .social-media img:hover {
+    height: 52px;
+    width: 52px;
+}
+
 
 
 
