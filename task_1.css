@@ -1,0 +1,250 @@
+/* 
+	 ====================================
+		Reset CSS
+	 ====================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 
+	 ====================================
+		CSS I want 
+	 ====================================
+*/
+
+/* layout config */
+*,*:before, *:after{
+	box-sizing: border-box;
+}
+
+.header, .profile, .education, .experience {
+    margin-left: 360px;
+    margin-right: 360px;
+    width: 1200px;
+}
+
+/* header */
+.header h1 {
+    width:264px;
+    height: 188px;
+    margin-top: 47px;
+    margin-bottom: 17px;
+    font-size: 80px;
+    font-family: sans-serif;
+    line-height: 94px;
+    color: #000000;
+}
+
+.header .divider {
+    border-top: 2px solid #000000;
+    width: 1200px;
+}
+
+.header img {
+    width: 324px;
+    height: 324px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+/* content */
+.profile, .education, .skill, .experience {
+    margin-bottom: 72px;
+}
+
+.profile .divider, .education .divider, .experience .divider {
+    border-top: 1px solid #000000;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    width: 1200px;
+}
+
+.profile .label, .education .label, .experience .label {
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+.profile span, .education span, .experience span {
+    font-weight: medium;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #A00404;
+    padding-left: 16px;
+}
+
+.profile p, .education p{
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-bottom: 24px;
+    line-height: 36px;
+}
+
+.skill{
+    background: #415165 0% 0% no-repeat padding-box;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+
+.skill .label {
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+}
+
+.skill span {
+    font-weight: medium;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-left: 16px;
+}
+
+.skill .divider {
+    border-top: 1px solid white;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 996px;
+}
+
+.skill-list {
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+
+.skill-list p {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.job-list {
+    border-left: 1px solid #96A9C4;
+    margin-left: 24px;
+    padding-left: 24px;
+}
+
+.job-list p {
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-bottom: 24px;
+}
+
+.job-list img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 8px;
+}
+
+.job-1 .job-label, .job-2 .job-label {
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.job-1 p, .job-2 p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 642px;
+}
+
+/* footer */
+.footer {
+    background: #415165 0% 0% no-repeat padding-box;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+
+.footer .divider {
+    border-top: 1px solid white;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.footer .label {
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.footer span {
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-left: 16px;
+}
+
+.contact-list p {
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.contact-link {
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+}
+
+.contact-link img {
+    height: 48px;
+    width: 48px;
+    margin-right: 24px;
+}
+
+
+
+
+
