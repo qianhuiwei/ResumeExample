@@ -4,10 +4,9 @@ This is a web page that demonstrates a mockup resume.
 
 <img src="https://github.com/qianhuiwei/LayoutTask/blob/4ba7cbfd135571c9f8be6560964662eb03811b58/pageDemo.png" width="500"/>
 
-
-## Run It
-1. Git clone the repo.
-2. Open the `index.html` file with browser (Chrome or Safari recommended).
+## Check out the page
+Open the link below (Chrome or Safari recommended):
+https://qianhuiwei.github.io/LayoutTask/
 
 
 ## Features
