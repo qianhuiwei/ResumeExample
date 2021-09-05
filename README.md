@@ -7,7 +7,7 @@ This is a web page that demonstrates a mockup resume.
 
 ## Run It
 1. Git clone the repo.
-2. Open the index.html file with browser (Chrome or Safari recommended).
+2. Open the `index.html` file with browser (Chrome or Safari recommended).
 
 
 ## Features
