@@ -1,4 +1,4 @@
-# LayoutTask
+# ResumeExample
 
 This is a web page that demonstrates a mockup resume.  
 
@@ -6,7 +6,7 @@ This is a web page that demonstrates a mockup resume.
 
 ## Check out the page
 Open the link below (Chrome or Safari recommended):  
-https://qianhuiwei.github.io/LayoutTask/
+https://qianhuiwei.github.io/ResumeExample/
 
 
 ## Features
